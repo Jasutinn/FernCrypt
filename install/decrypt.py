@@ -3,9 +3,9 @@
 import os
 from cryptography.fernet import Fernet
 
-__author__ = ("Justine Dela Torre (Jasutin)")
+# __author__ = ("Justine Dela Torre (Jasutin)")
 
-__all__ = ['encrypt', 'decrypt]
+# __all__ = ['encrypt', 'decrypt]
 
 if not 'SUDO_UID' in os.environ.keys():
     print("\t\tYour files are still encrypted, Please run as superuser!\n")
