@@ -8,7 +8,7 @@ rm --force install.sh
 
 sleep 2;
 
-printf "\n\n\t\e[1;92mRUN AS SUPERUSER TO RESUME THE INSTALLATION\n\n\n\e[0m"
+printf "\n\n\t\e[1;92mRUN AS SUPERUSER TO CONTINUE THE INSTALLATION\n\n\n\e[0m"
 
 sleep 2;
 
