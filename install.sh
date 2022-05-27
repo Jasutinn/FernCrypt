@@ -2,7 +2,7 @@
 
 clear;
 
-printf "\n\t\e[1;92mCHECKING/INSTALLING THE REQUIREMENTS...\e[0m\n\n"
+printf "\n\t\e[1;92mCHECKING/INSTALLING THE REQUIREMENTS...\e[1m\n\n"
 
 sleep 3;
 
