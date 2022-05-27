@@ -57,7 +57,7 @@ sleep 10;
 clear;
 
 printf "\n\t\t\e[1;34mSUCCESS TO INSTALL THE MODULE. YOU CAN ENCRYPT AND DECRYPT THE FILES NOW!\e[0m"
-printf "\t\e[1;36mPowered by Jasutin\e[0m"
+printf "\n\t\e[1;36mPowered by Jasutin\e[0m"
 printf '\n\n\t\e[1;92m"ferncrypt" for encryption and "decryptf" for decryption\e[0m'
 
 sleep 5;
