@@ -19,7 +19,7 @@ clear;
 
 sleep 2;
 
-printf "\t\e[1;92mCHECKING REQUIREMENTS...\n\n\e[1m"
+printf "\t\e[1;92mCHECKING THE REQUIREMENTS IN SUDO...\n\n\e[1m"
 	apt install python3
 	apt install python3-pip
 	apt install python-is-python3
@@ -28,7 +28,7 @@ clear;
 
 sleep 2;
 
-printf "\t\e[1;92mINSTALLING THE REQUIREMENTS IN SUPERUSER...\n\n\e[1m"
+printf "\t\e[1;92mINSTALLING THE REQUIREMENTS IN SUDO...\n\n\e[1m"
 	python -m pip install cryptography
 	python -m pip install Fernet
 	python -m pip install pwn
