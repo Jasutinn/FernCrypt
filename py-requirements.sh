@@ -1,5 +1,3 @@
-#!/bin/env bash
-
 clear;
 
 printf "\t\e[1;92mINSTALLING REQUIREMENTS...\n\n\n\e[1m"
