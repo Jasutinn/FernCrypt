@@ -1,6 +1,6 @@
 #/bin/env bash
 
-printf "\n\t\e[1;92mUPDATING THE INSTALLATION...\e[0m\n\n\n\n\n\n\n\n\n\n\n\n"
+printf "\n\t\e[1;92mUPDATING THE INSTALLATION PACKAGES...\e[0m\n\n\n\n\n\n\n\n\n\n\n\n"
 
 sleep 3;
 
