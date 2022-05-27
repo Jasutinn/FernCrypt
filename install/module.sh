@@ -43,20 +43,20 @@ sleep 10;
 
 	mv install/decrypt.py decryptf
 	mv install/encrypt.py ferncrypt
-	chmod +x install/decryptf
-	chmod +x install/ferncrypt
-	chmod +r install/decryptf
-	chmod +r install/ferncrypt
-	cp -r install/decryptf /opt
-	cp -r install/ferncrypt /opt
-	cp -r install/decryptf /bin
-	cp -r install/ferncrypt /bin
-	mv install/decryptf /usr/bin
-	mv install/ferncrypt /usr/bin
+	chmod +x decryptf
+	chmod +x ferncrypt
+	chmod +r decryptf
+	chmod +r ferncrypt
+	cp decryptf /opt
+	cp ferncrypt /opt
+	cp decryptf /bin
+	cp ferncrypt /bin
+	mv decryptf /usr/bin
+	mv ferncrypt /usr/bin
 
 clear;
 
-printf "\n\t\t\e[1;34mSUCCESS TO INSTALL THE MODULE. YOU CAN ENCRYPT AND DECRYPT THE FILES NOW!\e[0m"
+printf "\n\t\e[1;34mSUCCESS TO INSTALL THE MODULE. YOU CAN ENCRYPT AND DECRYPT THE FILES NOW!\e[0m"
 printf "\n\t\e[1;36mPowered by Jasutin\e[0m"
 printf '\n\n\t\e[1;92m"ferncrypt" for encryption and "decryptf" for decryption\e[0m'
 
